@@ -4,7 +4,7 @@ import {getAuth } from 'firebase/auth';
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "nextprep-be126.firebaseapp.com",
   projectId: "nextprep-be126",
   storageBucket: "nextprep-be126.firebasestorage.app",
